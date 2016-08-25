@@ -3,6 +3,7 @@ title = "Chase Coleman"
 copyright = "&copy; 2016 Chase Coleman"
 languageCode = "en-us"
 theme = "academic"
+canonifyurls: true
 
 # Enable comments by entering your Disqus shortname
 # disqusShortname = "spf13"
