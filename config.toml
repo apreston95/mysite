@@ -1,0 +1,166 @@
+baseurl = "http://www.chasegcoleman.com/"
+title = "Chase Coleman"
+copyright = "&copy; 2016 Chase Coleman"
+languageCode = "en-us"
+theme = "academic"
+
+# Enable comments by entering your Disqus shortname
+# disqusShortname = "spf13"
+
+# Enable analytics by entering your Google Analytics tracking ID
+googleAnalytics = ""
+
+
+[params]
+  name = "Chase Coleman"
+  role = "PhD Candidate in Economics"
+  organization = "New York University (Stern)"
+  avatar = "con_v_fxr_alpha9.png"
+  email = "cc7768@gmail.com"
+  address = "44 West 4th Street. New York, NY 10280"
+  phone = ""
+
+  # Date format (refer to Go's date format: http://flippinggodateformat.com )
+  #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
+  date_format = "Mon, Jan 2, 2006"
+
+  # Enable global LaTeX math rendering? If false, you can enable it locally on a per page basis.
+  math = true
+
+  # Enable native social sharing buttons?
+  sharing = false
+
+  # Link custom CSS and JS assets (relative to /static/css and /static/js respectively)
+  custom_css = []
+  custom_js  = []
+
+  # Biography section.
+  # Section will only be displayed if `content/home/about.md` exists.
+  [params.about]
+    interests = ["Macroeconomics", "International Economics", "Monetary Economics", "Dynamic Contracts", "Computational Tools", "Open Source Science"]
+    str_interests = "Interests"
+    str_education = "Education"
+
+    [[params.about.education]]
+      course = "PhD in Economics"
+      institution = "New York University"
+      year = "Expected 2018"
+
+    [[params.about.education]]
+      course = "BSc in Economics"
+      institution = "Brigham Young University"
+      year = 2010
+
+    [[params.about.education]]
+      course = "BSc in Mathematics"
+      institution = "Brigham Young University"
+      year = 2010
+
+  # Selected Publications section.
+  # Section will only be displayed if there are publications with `selected = true` in their `+++` preamble.
+  [params.publications_selected]
+    detailed_list = false
+    title = "Selected Publications"
+    subtitle = ""
+
+  # Publications section.
+  # Section will only be displayed if there are publications in `content/publication/`.
+  [params.publications]
+    count = 5
+    detailed_list = false
+    title = "Publications"
+    subtitle = ""
+    str_all = "More Publications"
+
+  # Working papers section.
+  # Section will only be displayed if there are papers in `content/workingpaper/`.
+  [params.workingpaper]
+    count = 10
+    detailed_list = false
+    title = "Working Papers"
+    subtitle = ""
+    str_all = "More Working Papers"
+
+
+  # Posts section.
+  # Section will only be displayed if there are posts in `content/post/`.
+  [params.posts]
+    count = 5
+    title = "Recent Posts"
+    subtitle = ""
+    str_all = "More Posts"
+    str_read_more = "Read more"
+
+  # Projects section.
+  # Section will only be displayed if there are projects in `content/project/`.
+  [params.projects]
+    title = "Projects"
+    subtitle = ""
+
+  # Contact section.
+  [params.contact]
+    enable = true
+    title = "Contact"
+    subtitle = ""
+    autolink = true  # Automatically link email and phone?
+
+  # Social/Academic Networking
+  #
+  # Icon pack "fa" includes the following social network icons:
+  #   twitter, weibo, linkedin, github, facebook, pinterest, google-plus, youtube, instagram, soundcloud
+  #   For email icon, use "fa" icon pack, "envelope" icon, and "mailto:your@email.com" as the link.
+  #   Full list: https://fortawesome.github.io/Font-Awesome/icons/
+  #
+  # Icon pack "ai" includes the following academic network icons:
+  #   google-scholar, arxiv, orcid, researchgate, mendeley
+  #   Full list: https://jpswalsh.github.io/academicons/
+
+  [[params.social]]
+    icon = "envelope"
+    icon_pack = "fa"
+    link = "mailto:cc7768@gmail.com"
+
+  [[params.social]]
+    icon = "google-scholar"
+    icon_pack = "ai"
+    link = "https://scholar.google.com/citations?user=_iAbtmoAAAAJ"
+
+  [[params.social]]
+    icon = "github"
+    icon_pack = "fa"
+    link = "//github.com/cc7768"
+
+
+# Navigation Links
+#   The weight parameter defines the order that the links will appear in.
+
+[[menu.main]]
+  name = "Home"
+  url = "#top"
+  weight = 1
+
+[[menu.main]]
+  name = "Research"
+  url = "#publications"
+  weight = 2
+
+[[menu.main]]
+  name = "Projects"
+  url = "#projects"
+  weight = 4
+
+[[menu.main]]
+  name = "Teaching"
+  url = "#teaching"
+  weight = 3
+
+[[menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 5
+
+# [[menu.main]]
+#   name = "Posts"
+#   url = "#posts"
+#   weight = 6
+
